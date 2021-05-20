@@ -17,3 +17,12 @@ Individual’s cost: The cost of individual person for a whole month will be han
 Feedback and Complaints: Handling all feedbacks and complaints in the database will be done by this module.<br>
 Vote for menu: Voting for menu items will be handled by this module.<br>
 Login: Handling student login and validation of details will be handled in this module.<br>
+
+Report on Learning Pre-requisites
+----------------------------------
+
+SL | Learning Task | Description | Status | Comment |
+--:|:--------------|:------------|:------:|---------|
+1  | Android Studio | Basic Funtionnality of Android Studio| ![](https://img.shields.io/badge/Android%20Studio-Leaning%20-green) ||
+2  | Java | Basic and Some Advance java |![](https://img.shields.io/badge/Basic-Learned-green) ![](https://img.shields.io/badge/Advance-Leaning%20-yellow) ||
+3  |Firebase| Security rules| ![](https://img.shields.io/badge/Firebase-Will%20start-red) ||
