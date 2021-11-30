@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mess Management</string>
+    <string name="dbUrl">https://my-mess-meal-6851d-default-rtdb.firebaseio.com/</string>
+    <string-array name="numbers">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+</resources>

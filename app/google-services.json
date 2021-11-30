@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "674847291881",
+    "project_id": "my-mess-meal-6851d",
+    "storage_bucket": "my-mess-meal-6851d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674847291881:android:a164052503885defcb3378",
+        "android_client_info": {
+          "package_name": "com.example.messmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674847291881-qmeock7q0ejqbjitgnmf5251c7q8r7a6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3C5wh0CwZxIgxGYKbped90Ai8HAU3ZB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674847291881-qmeock7q0ejqbjitgnmf5251c7q8r7a6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
