@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="30px"
     tools:context=".MainActivity">
 
     <include
@@ -30,18 +31,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#222222"
+                android:background="#FBD397"
                 android:clickable="true"
-                android:orientation="horizontal"
+                android:orientation="vertical"
                 android:id="@+id/mealCounterid"
-                android:layout_margin="5dp"
+                android:layout_margin="4dp"
+                android:padding="20px"
                 >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mealcounter"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Meal Counter"
-                    android:textColor="@color/white"
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#FF5722"
+                    android:textSize="22dp"
+
                     ></TextView>
 
             </LinearLayout>
@@ -49,18 +59,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#D1CFCF"
+                android:background="#A9D6FA"
                 android:clickable="true"
                 android:id="@+id/members"
-                android:orientation="horizontal"
-                android:layout_margin="5dp"
+                android:padding="20px"
+                android:orientation="vertical"
+                android:layout_margin="4dp"
+
                 >
+                <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/member"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="members"
-                    android:textColor="@color/white"
-                    android:textSize="18dp"
+                    android:text="Members"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#2196F3"
+                    android:textSize="22dp"
                     ></TextView>
 
             </LinearLayout>
@@ -77,17 +95,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#DC6F6F"
+                android:background="#C498DFD9"
                 android:id="@+id/expenditureLayout"
-                android:orientation="horizontal"
-                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:padding="20px"
+                android:layout_margin="4dp"
                 >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/expenefg"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Expenditure"
-                    android:textColor="@color/white"
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#009688"
+                    android:textSize="22dp"
                     ></TextView>
 
             </LinearLayout>
@@ -95,17 +120,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#771919"
-                android:orientation="horizontal"
+                android:background="#AFF8B2"
+                android:orientation="vertical"
+                android:padding="20px"
                 android:id="@+id/memberListID"
-                android:layout_margin="5dp"
+                android:layout_margin="4dp"
                 >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/balance"></ImageView>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="add balance User"
-                    android:textColor="@color/white"
-                    android:textSize="18dp"
+                    android:text="Add balance"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#4CAF50"
+                    android:textSize="22dp"
                     ></TextView>
             </LinearLayout>
 
@@ -121,11 +155,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#222222"
+                android:background="#00FA9A"
                 android:clickable="true"
                 android:orientation="horizontal"
-
-                android:layout_margin="5dp"
+                android:layout_margin="4dp"
                 >
 
             </LinearLayout>
@@ -133,10 +166,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#D1CFCF"
+                android:background="#00BFFF"
                 android:clickable="true"
                 android:orientation="horizontal"
-                android:layout_margin="5dp"
+                android:layout_margin="4dp"
                 >
             </LinearLayout>
 
